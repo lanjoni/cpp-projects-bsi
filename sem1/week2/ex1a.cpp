@@ -16,6 +16,8 @@ Aluno: João Augusto Lissoni Lanjoni
 #include <locale>
 #include <cmath>
 
+// Acima incluímos todas as bibliotecas que podem ser necessárias para o desenvolvimento!
+
 using namespace std;
 
 int main(int argc, char** argv){
@@ -29,8 +31,9 @@ int main(int argc, char** argv){
     cout << "3 - Palmeiras;" << endl;
     cout << "4 - Corinthians;" << endl;
     cin >> time;
+    // Aqui o usuário entra com a opção de time que desejar, e após ser lida, passará para o switch!
 
-    switch (time){
+    switch (time){ // O 'switch' funciona verificando casos, agilizando o processo de menus para opções! Saber quando utilizar o 'switch' é essencial!
         case 1:
             cout << "O time selecionado foi São Paulo!" << endl;
             cout << "Famoso freguês do Palmeiras..." << endl;
