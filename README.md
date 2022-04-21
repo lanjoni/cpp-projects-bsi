@@ -1,2 +1,3 @@
-# cpp-projects-bsi
-A repository for my college exercises
+# CPP Projects BSI (2022)
+
+✨ A repository for my CPP college exercises!
