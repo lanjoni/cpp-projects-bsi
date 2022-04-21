@@ -22,16 +22,16 @@ using namespace std;
 int main(int argc, char** argv){
     setlocale(LC_ALL, "Portuguese");
     char nome[50];
-    float sal;
+    float sal; // O salário é declarado como 'float' pois seu valor pode ser um número decimal, correto?
 
     cout << "============== Calcular Imposto de Renda! ==============" << endl;
-    cout << "Informe o seu nome: ";
+    cout << "Informe o seu nome: "; // Aqui informamos o nome do usuário!
     cin >> nome;
     cout << "Informe o seu salário: ";
     cin >> sal;
 
     cout << "==========================================" << endl;
-    if (sal < 2000){
+    if (sal < 2000){ // Essa é considerada a verificação principal pois separa nosso código em duas partes: os maiores que 2000 (que possuem quebras) ou os menores!
         cout << nome << ", você tem isenção de pagamento do IRPF!";
     } else {
         if (sal < 3000){
