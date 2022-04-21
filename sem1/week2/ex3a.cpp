@@ -34,7 +34,7 @@ int main(int argc, char** argv){
     cout << "\nInforme o segundo número: ";
     cin >> n2;
 
-    switch (opc){
+    switch (opc){ // A única diferença deste 'switch' é: ele verifica caracteres! Sim, de modo geral! Para trabalhar com letras usamos 'toupper' pois todas as letras se tornam maiúsculas!
         case '+':
             cout << "O resultado de " << n1 << " + " << n2 << " é " << n1 + n2 << endl;
             break;
