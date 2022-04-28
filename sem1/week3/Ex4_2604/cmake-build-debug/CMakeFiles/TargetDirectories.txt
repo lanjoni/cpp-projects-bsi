@@ -1,0 +1,3 @@
+/Users/guto/Documents/programming/c++/Ex4_2604/cmake-build-debug/CMakeFiles/Ex4_2604.dir
+/Users/guto/Documents/programming/c++/Ex4_2604/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/guto/Documents/programming/c++/Ex4_2604/cmake-build-debug/CMakeFiles/rebuild_cache.dir
