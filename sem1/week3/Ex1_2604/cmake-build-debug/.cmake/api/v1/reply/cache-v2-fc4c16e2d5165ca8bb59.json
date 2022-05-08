@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/guto/Documents/programming/c++/Ex1_2604/cmake-build-debug"
+			"value" : "/Users/guto/Documents/GitHub/cpp-projects-bsi/sem1/week3/Ex1_2604/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -515,7 +515,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/guto/Documents/programming/c++/Ex1_2604"
+			"value" : "/Users/guto/Documents/GitHub/cpp-projects-bsi/sem1/week3/Ex1_2604"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -1087,7 +1087,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/guto/Documents/programming/c++/Ex1_2604/cmake-build-debug"
+			"value" : "/Users/guto/Documents/GitHub/cpp-projects-bsi/sem1/week3/Ex1_2604/cmake-build-debug"
 		},
 		{
 			"name" : "Ex1_2604_IS_TOP_LEVEL",
@@ -1111,7 +1111,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/guto/Documents/programming/c++/Ex1_2604"
+			"value" : "/Users/guto/Documents/GitHub/cpp-projects-bsi/sem1/week3/Ex1_2604"
 		}
 	],
 	"kind" : "cache",

@@ -1,4 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/guto/Documents/programming/c++/Ex1_2604 -B /Users/guto/Documents/programming/c++/Ex1_2604/cmake-build-debug
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/guto/Documents/GitHub/cpp-projects-bsi/sem1/week3/Ex1_2604 -B /Users/guto/Documents/GitHub/cpp-projects-bsi/sem1/week3/Ex1_2604/cmake-build-debug
 -- The C compiler identification is AppleClang 13.1.6.13160021
 -- The CXX compiler identification is AppleClang 13.1.6.13160021
 -- Detecting C compiler ABI info
@@ -13,4 +13,4 @@
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/guto/Documents/programming/c++/Ex1_2604/cmake-build-debug
+-- Build files have been written to: /Users/guto/Documents/GitHub/cpp-projects-bsi/sem1/week3/Ex1_2604/cmake-build-debug

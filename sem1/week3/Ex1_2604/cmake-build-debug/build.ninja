@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /Users/guto/Documents/programming/c++/Ex1_2604/cmake-build-debug/
+cmake_ninja_workdir = /Users/guto/Documents/GitHub/cpp-projects-bsi/sem1/week3/Ex1_2604/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target Ex1_2604
 
@@ -49,7 +49,7 @@ cmake_ninja_workdir = /Users/guto/Documents/programming/c++/Ex1_2604/cmake-build
 
 build cmake_object_order_depends_target_Ex1_2604: phony || CMakeFiles/Ex1_2604.dir
 
-build CMakeFiles/Ex1_2604.dir/main.cpp.o: CXX_COMPILER__Ex1_2604_Debug /Users/guto/Documents/programming/c++/Ex1_2604/main.cpp || cmake_object_order_depends_target_Ex1_2604
+build CMakeFiles/Ex1_2604.dir/main.cpp.o: CXX_COMPILER__Ex1_2604_Debug /Users/guto/Documents/GitHub/cpp-projects-bsi/sem1/week3/Ex1_2604/main.cpp || cmake_object_order_depends_target_Ex1_2604
   DEP_FILE = CMakeFiles/Ex1_2604.dir/main.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
   OBJECT_DIR = CMakeFiles/Ex1_2604.dir
@@ -79,7 +79,7 @@ build Ex1_2604: CXX_EXECUTABLE_LINKER__Ex1_2604_Debug CMakeFiles/Ex1_2604.dir/ma
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/guto/Documents/programming/c++/Ex1_2604/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/guto/Documents/GitHub/cpp-projects-bsi/sem1/week3/Ex1_2604/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -90,7 +90,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/guto/Documents/programming/c++/Ex1_2604/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/guto/Documents/programming/c++/Ex1_2604 -B/Users/guto/Documents/programming/c++/Ex1_2604/cmake-build-debug
+  COMMAND = cd /Users/guto/Documents/GitHub/cpp-projects-bsi/sem1/week3/Ex1_2604/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/guto/Documents/GitHub/cpp-projects-bsi/sem1/week3/Ex1_2604 -B/Users/guto/Documents/GitHub/cpp-projects-bsi/sem1/week3/Ex1_2604/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -106,7 +106,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /Users/guto/Documents/programming/c++/Ex1_2604/cmake-build-debug
+# Folder: /Users/guto/Documents/GitHub/cpp-projects-bsi/sem1/week3/Ex1_2604/cmake-build-debug
 
 build all: phony Ex1_2604
 
