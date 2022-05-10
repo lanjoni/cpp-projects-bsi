@@ -1,3 +1,0 @@
-/Users/guto/Documents/IFSP/C++/week4/Ex13/cmake-build-debug/CMakeFiles/Ex13.dir
-/Users/guto/Documents/IFSP/C++/week4/Ex13/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/guto/Documents/IFSP/C++/week4/Ex13/cmake-build-debug/CMakeFiles/rebuild_cache.dir
