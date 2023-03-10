@@ -20,6 +20,7 @@ public:
     void order(noArvore *raiz);
     void posorder(noArvore *raiz);
     void maior(noArvore *raiz);
+    int soma(noArvore *raiz);
     void inicio();
 private:
 

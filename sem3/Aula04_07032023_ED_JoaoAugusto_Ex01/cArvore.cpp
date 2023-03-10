@@ -44,15 +44,27 @@ void cArvore::order(noArvore *raiz){
 	}
 }
 
-void cArvore::posorder(noArvore *raiz){
+/*void cArvore::posorder(noArvore *raiz){
 	if (raiz != NULL){
 		posorder(raiz->esquerda);
 		posorder(raiz->direita);
 		cout << raiz->dado << "\n";
 	}
+}*/
+
+void cArvore::posorder(noArvore *raiz){
+	if (raiz->esquerda != NULL){
+		posorder(raiz->esquerda);
+    }
+
+    if (raiz->direita != NULL) {
+		posorder(raiz->direita);
+	}
+
+    cout << raiz->dado << "\n";
 }
 
-void cArvore::maior(noArvore *raiz){
+/*void cArvore::maior(noArvore *raiz){
 	if (raiz != NULL){
         if (raiz->dado > maiorDado){
             maiorDado = raiz->dado;
@@ -60,6 +72,26 @@ void cArvore::maior(noArvore *raiz){
         maior(raiz->esquerda);
         maior(raiz->direita);
     }
+}*/
+
+void cArvore::maior(noArvore *raiz){
+    if (raiz->direita != NULL){
+        maior(raiz->direita);
+    } else {
+        cout << "O maior elemento é: " << raiz->dado;
+    }
+}
+
+/*int cArvore::soma(noArvore *raiz){
+    if (raiz != NULL){
+        return raiz->dado + soma(raiz->esquerda) + soma(raiz->direita);
+    } else {
+        return 0;
+    }
+}*/
+
+int cArvore::soma(noArvore *raiz){
+    return raiz != NULL ? raiz->dado + soma(raiz->esquerda) + soma(raiz->direita) : 0;
 }
 
 void cArvore::inicio(){
@@ -70,7 +102,7 @@ void cArvore::inicio(){
 	cout << "Início" << "\n\n";
 
         raiz = insere(raiz, 5);
-        maiorDado = raiz->dado;
+        //maiorDado = raiz->dado;
     }
     
     insere(raiz, 3);
@@ -79,5 +111,7 @@ void cArvore::inicio(){
 
     maior(raiz);
 
-    cout << "Maior elemento: " << maiorDado << "\n";
+    cout << "\n\nSoma: " << soma(raiz) << "\n";
+
+    //cout << "Maior elemento: " << maiorDado << "\n";
 }
